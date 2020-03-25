@@ -1,7 +1,7 @@
 
 #SONG MATCH
 ------------------------------
-##1. What does it do?
+##1. What does it do?##
 ------------------------------
 
 Song Match asks the user for a US artist, then asks the user 3 questions about themselves before giving them a unique song by that artist.
