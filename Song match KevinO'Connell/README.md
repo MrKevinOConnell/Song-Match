@@ -53,7 +53,7 @@ Danceability - Describes how suitable a track is for dancing based on a combinat
 -
 Speechiness - Detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value.
 -
-						----------
+						
 6. Links
 --------
 
