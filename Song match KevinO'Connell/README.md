@@ -55,7 +55,6 @@ Speechiness - Detects the presence of spoken words in a track. The more exclusiv
 -
 						
 6. Links
---------
 
 Spotify API
 ------------------------------------------------
