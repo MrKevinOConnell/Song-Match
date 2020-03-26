@@ -20,7 +20,9 @@ It then checked through each category and eliminated songs that didn’t fit the
 -------------------------
 
 User - open song match
+
 Alexa- Welcome to Song Match. I can help you understand which song by your favorite artist best matches your life. Please tell me the name of your favorite artist.
+
 User- drake
 
 Alexa- Great. drake. Now please answer these three questions to help me match you to a drake song. First, would you rather be a fan of the Los Angeles Lakers or Clippers?
