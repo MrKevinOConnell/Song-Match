@@ -1,0 +1,156 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "song match",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "FavoriteArtistIntent",
+          "slots": [
+            {
+              "name": "artist",
+              "type": "AMAZON.Musician"
+            },
+            {
+              "name": "actor",
+              "type": "getActors"
+            },
+            {
+              "name": "activities",
+              "type": "getActivities"
+            },
+            {
+              "name": "sports",
+              "type": "sportsTeams"
+            }
+          ],
+          "samples": [
+            "watch {activities}",
+            "{artist}",
+            "the {sports}",
+            "{sports}",
+            "i love {artist}",
+            "i like {artist}",
+            "{activities}",
+            "{actor}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "RepeatIntent",
+          "slots": [],
+          "samples": [
+            "repeat what you just said",
+            "repeat"
+          ]
+        },
+        {
+          "name": "YesIntent",
+          "slots": [],
+          "samples": [
+            "yep",
+            "yeah",
+            "yea",
+            "yes"
+          ]
+        },
+        {
+          "name": "NoIntent",
+          "slots": [],
+          "samples": [
+            "nah",
+            "nope",
+            "no"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "go out "
+              }
+            },
+            {
+              "name": {
+                "value": "netflix"
+              }
+            }
+          ],
+          "name": "getActivities"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "lakers"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Angeles lakers"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Angeles clippers"
+              }
+            },
+            {
+              "name": {
+                "value": "clippers"
+              }
+            }
+          ],
+          "name": "sportsTeams"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "denzel washington"
+              }
+            },
+            {
+              "name": {
+                "value": "samuel L jackson"
+              }
+            },
+            {
+              "name": {
+                "value": "chris rock"
+              }
+            },
+            {
+              "name": {
+                "value": "Kevin Hart"
+              }
+            },
+            {
+              "name": {
+                "value": "Mark Wahlberg"
+              }
+            }
+          ],
+          "name": "getActors"
+        }
+      ]
+    }
+  },
+  "version": "48"
+}
